@@ -122,6 +122,11 @@ CHANGELOG
 		* Update Server Status Page, fix translation error;
 		* New website (overmonitor.org) and return on SourceForge (sorry for the short change);
 		* Updated the script for updates. 
+	1.2
+		* Repository moved definitively to GitHub;
+		* pChart update from version 2.1.3 to 2.1.4 (The update fixes several vulnerabilities);
+		* Update Social Icons Image.
+		
 	
 CREDITS
 

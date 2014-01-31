@@ -82,7 +82,7 @@ include	'access.php';
             }
             ?>
 
-            <a href="http://www.andreadraghetti.it"><img src="img/social-icons/wordpress.png" alt="Web Site"></a>
+            <a href="http://www.overmonitor.org"><img src="img/social-icons/github.png" alt="GitHub"></a>
             <a href="mailto:info@andreadraghetti.it&subject=Over%20Monitor"><img src="img/social-icons/email.png" alt="eMail"></a>
 
 
