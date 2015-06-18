@@ -3,7 +3,7 @@
 error_reporting(0);
 
 //Check Version
-$om_version = '1.2';
+$om_version = '1.3';
 $rm_version = file_get_contents('http://www.overmonitor.org/version.txt');
 
 $aStats = array();
