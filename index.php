@@ -83,7 +83,7 @@ include	'access.php';
             ?>
 
             <a href="http://www.overmonitor.org"><img src="img/social-icons/github.png" alt="GitHub"></a>
-            <a href="mailto:info@andreadraghetti.it"><img src="img/social-icons/email.png" alt="eMail"></a>
+            <a href="mailto:drego85@draghetti.it"><img src="img/social-icons/email.png" alt="eMail"></a>
 
 
         </p>
@@ -178,7 +178,11 @@ include	'access.php';
                         print ('<p class="partitions">');
                         print ('<strong>' . $aStats['hd'][$actualhd][dev] . '</strong>' .'<br>');
                         print (intval($aStats['hd'][$actualhd][free_perc]) . '% of free space' . '<br>');
-                        print (intval($aStats['hd'][$actualhd][used]/1024) . 'Mb used up ' . intval($aStats['hd'][$actualhd][total]/1024) . 'Mb'  . '<br>');
+                        if ($aStats['hd'][$actualhd][used] < 1048576){
+                        	print (round(intval($aStats['hd'][$actualhd][used]/1024,2)) . 'Mb used up ' . intval($aStats['hd'][$actualhd][total]/1024) . 'Mb'  . '<br>');
+                        } else {
+                        	print ((round(intval($aStats['hd'][$actualhd][used]/1024)/1024,2)) . 'Tb used up ' . intval(($aStats['hd'][$actualhd][total]/1024)/1024) . 'Tb'  . '<br>');
+                        }
                         print ('</p>');
                     }
                     ?>
@@ -345,4 +349,3 @@ include	'access.php';
 
 </body>
 </html>
-
