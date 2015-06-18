@@ -126,6 +126,8 @@ CHANGELOG
 		* Repository moved definitively to GitHub;
 		* pChart update from version 2.1.3 to 2.1.4 (The update fixes several vulnerabilities);
 		* Update Social Icons Image.
+	1.3
+		* In the Partitions section now shown the Terabyte for large volumes.
 		
 	
 CREDITS
