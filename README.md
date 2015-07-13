@@ -50,7 +50,7 @@ CRONTAB
 	
 	If you were manually editing your crontab file you would add the following line:
 	
-	00,15,30,45 * * * * curl -L -s --user-agent 'Fever Refresh Cron''http://example.com/over_monitor/functions.php'
+	00,15,30,45 * * * * curl -L -s 'http://example.com/over_monitor/functions.php'
 	
 	If the command "curl" does not work, we recommend using "wget". Example:
 	
